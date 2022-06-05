@@ -1,0 +1,94 @@
+body {
+    background-color: aqua;
+}
+
+.box {
+    width: 500px;
+	height: 500px;
+	background-color: #0a1f44;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+    border-radius: 25px;
+    border: solid 5px black;
+}
+
+.weather-location {
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.submit-location, .users-location {
+	border-radius: 2px;
+	padding: 5px 40px;
+	background-color: red;
+	color: white;
+	font-size: 19px;
+	border: none;
+	cursor: pointer;
+}
+
+.input-location {
+	width: 75%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: none;
+	outline: none;
+	color: white;
+	border-bottom: 2px solid white;
+	background: none;
+	font-size: large;
+	text-align: center;
+	font-style: italic;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.weather-box {
+	width: 350px;
+	height: 250px;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+    border-radius: 25px;
+	background-image: url("../image/clouds.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.location {
+	height: 1px;
+	padding-top: 10px;
+	text-align: center;
+	color: white;
+}
+
+.temp-c {
+	height: 10px;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+
+.icon {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85px;
+	height: 85px;
+}
+
+.condition-text {
+	position: relative;
+	bottom: 30px;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
